@@ -1,0 +1,20 @@
+.wrapper__checkbox:checked ~ .wrapper__menu {
+  right: 0;
+}
+
+.wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 8px;
+}
+
+.wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(2) {
+  opacity: 0;
+}
+
+.wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: -6px;
+}
+/*# sourceMappingURL=style.css.map */
